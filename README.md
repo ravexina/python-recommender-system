@@ -24,6 +24,9 @@ The dataset comes in 5 folds. So without chaning how it looks, we ues it to perf
   - Prediction Coverage
   - [Mean absolute error MAE](https://en.wikipedia.org/wiki/Mean_absolute_error)
 
+### Results
+To see a set of results on a run check [here](https://github.com/ravexina/python-recommender-system/tree/master/results).
+
 # How to use it:
 
 ## Download
