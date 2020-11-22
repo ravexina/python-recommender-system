@@ -54,3 +54,19 @@ or
 ```
 pipenv run python3 main.py
 ```
+
+# Improve the runtime
+
+As you might know, similiraty matrices takes some to calculate. Once you run the project it stores calculated matrices in form of pickles in `./pickles` directory.
+
+In the file `Algorithms/ItemKNN.py` and `Algorithms/UserKNN.py` there are two lines, which you can set an argument named `load_matrices` to `true` so next time you run the project it does not tries to recalculate the similarity matrices and uses the old one.
+
+```python
+# UserKNN
+cosine = Cosine(self.ratings, load_matrices=False, save_matrices=True, fold_id=self.fold_id)
+```
+
+```python
+# ItemKNN.py
+pearson = Pearson(self.ratings, load_matrices=False, save_matrices=True, fold_id=self.fold_id)
+```
