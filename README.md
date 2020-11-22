@@ -13,12 +13,13 @@ Implemented algorithms are:
 
 ## Dataset
 
-I wrote this specifically to work with movielens 100k dataset. You can get it from here: http://files.grouplens.org/datasets/movielens/ml-100k.zip
+I wrote this specifically to work with movielens 100k dataset. You can get it from here:  
+http://files.grouplens.org/datasets/movielens/ml-100k.zip
 
-Here is another link from archive.org if the link above does not work for you or it is unavailable: https://web.archive.org/web/*/http://files.grouplens.org/datasets/movielens/ml-100k.zip
-Extract the content of `ml-100k` within the zip file into the `./dataset` directory.
+Here is another link from archive.org if the link above does not work for you or it is unavailable:  
+https://web.archive.org/web/*/http://files.grouplens.org/datasets/movielens/ml-100k.zip
 
-Install the necessary dependencies and you are good to go.
+Extract the content of `ml-100k` within the zip file into the `./dataset` directory. Install the necessary dependencies and you are good to go.
 
 ## Dependencies
 The libraries I've used in this project are mostly embedded in Python. The only ones you have to install are:
