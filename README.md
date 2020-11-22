@@ -11,6 +11,19 @@ Implemented algorithms are:
 - UserItemAverage
 - GlobalAverage
 
+Similarity meseaurs:
+
+- Item based nearest neighbor
+  - [Cosine](https://en.wikipedia.org/wiki/Cosine_similarity)
+- User based nearest neighbor
+  - [Pearson](https://en.wikipedia.org/wiki/Pearson_correlation_coefficient)
+
+
+To meseaure the quality of the predictions we use:
+
+- Prediction Coverage
+- [Mean absolute error MAE](https://en.wikipedia.org/wiki/Mean_absolute_error)
+
 # How to use it:
 
 ## Download
