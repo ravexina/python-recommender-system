@@ -103,3 +103,7 @@ cosine = Cosine(self.ratings, load_matrices=False, save_matrices=True, fold_id=s
 # ItemKNN.py
 pearson = Pearson(self.ratings, load_matrices=False, save_matrices=True, fold_id=self.fold_id)
 ```
+
+## Download the pre-calculated pickles
+
+Will be added soon.
