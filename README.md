@@ -30,13 +30,13 @@ Install Pandas and Numpy will be installed as a dependency of Pandas:
 
 **Using pip**
 
-``` 
+```
 pip install --user pandas
-```    
+```
 
 **Using pipenv**
 
-``` 
+```
 pipenv install pandas
 ```
 
