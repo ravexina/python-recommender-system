@@ -21,7 +21,7 @@ class ItemKNN(PredictorBase):
 
     def train(self):
         super().train(self.ratings)
-        cosine = Cosine(self.ratings, load_matrices=True, save_matrices=True, fold_id=self.fold_id)
+        cosine = Cosine(self.ratings, load_matrices=False, save_matrices=True, fold_id=self.fold_id)
         self.sim_matrix = cosine.build()
 
     def predict(self, user_id, item_id, rating=0):

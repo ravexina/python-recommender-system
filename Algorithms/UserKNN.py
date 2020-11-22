@@ -20,7 +20,7 @@ class UserKNN(PredictorBase):
 
     def train(self):
         super().train(self.ratings)
-        pearson = Pearson(self.ratings, load_matrices=True, save_matrices=True, fold_id=self.fold_id)
+        pearson = Pearson(self.ratings, load_matrices=False, save_matrices=True, fold_id=self.fold_id)
         self.sim_matrix = pearson.build()
 
     def predict(self, user_id, item_id, rating=0):
