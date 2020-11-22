@@ -1,6 +1,8 @@
 # Python Recommender system
 A simple recommender system in Python.
 
+## Implemented Algorithms
+
 Implemented algorithms are:
 - ItemKNN
 - UserKNN
@@ -10,6 +12,21 @@ Implemented algorithms are:
 - GlobalAverage
 
 # How to use it:
+
+## Download
+
+Clone the project using:
+
+```bash
+git clone https://github.com/ravexina/python-recommender-system.git
+```
+
+Or downloading it from [here](https://github.com/ravexina/python-recommender-system/archive/master.zip): 
+
+```bash
+wget https://github.com/ravexina/python-recommender-system/archive/master.zip
+```
+
 
 ## Dataset
 
